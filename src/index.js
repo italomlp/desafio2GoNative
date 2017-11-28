@@ -3,11 +3,12 @@ import {
   View,
 } from 'react-native';
 import 'config/ReactotronConfig';
+import createRootNavigator from 'routes';
 
 export default class App extends Component<{}> {
   render() {
-    return (
-      <View />
-    );
+    const Layout = createRootNavigator();
+
+    return <Layout />;
   }
 }
