@@ -1,8 +1,9 @@
 export default {
   background: '#EEEEEE',
-  inputHeader: '#EEEEEE',
-  headerTitle: '#333333',
+  headerInput: '#EEEEEE',
+  headerBackground: '#FFFFFF',
 
+  boxTitle: '#333333',
   boxBackground: '#FFFFFF',
   boxDescription: '#999999',
 

@@ -18,16 +18,18 @@ export default class Repositories extends Component {
 
   render() {
     return (
-      <View>
-        <TouchableOpacity onPress={this.navigateToIssue}>
-          <Repository />
-        </TouchableOpacity>
-        <TouchableOpacity onPress={this.navigateToIssue}>
-          <Repository />
-        </TouchableOpacity>
-        <TouchableOpacity onPress={this.navigateToIssue}>
-          <Repository />
-        </TouchableOpacity>
+      <View style={styles.container}>
+        <View style={styles.reposContainer}>
+          <TouchableOpacity onPress={this.navigateToIssue}>
+            <Repository />
+          </TouchableOpacity>
+          <TouchableOpacity onPress={this.navigateToIssue}>
+            <Repository />
+          </TouchableOpacity>
+          <TouchableOpacity onPress={this.navigateToIssue}>
+            <Repository />
+          </TouchableOpacity>
+        </View>
       </View>
     );
   }

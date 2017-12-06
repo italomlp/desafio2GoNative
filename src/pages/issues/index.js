@@ -3,7 +3,7 @@ import { View, Text } from 'react-native';
 
 import Issue from './components/issue';
 
-import { styles } from './styles';
+import styles from './styles';
 
 export default class Issues extends Component {
 
@@ -13,21 +13,16 @@ export default class Issues extends Component {
 
   render() {
     return (
-      <View>
-        <View>
+      <View style={styles.container}>
+        <View style={styles.filterContainer}>
           <Text>Todas</Text>
-          <Issue/>
-          <Issue/>
-          <Issue/>
-        </View>
-        <View>
-          <Text>Abertas</Text>
-          <Issue/>
-          <Issue/>
-          <Issue/>
-        </View>
-        <View>
           <Text>Fechadas</Text>
+          <Text>Abertas</Text>
+        </View>
+        <View style={styles.issuesContainer}>
+          <Issue/>
+          <Issue/>
+          <Issue/>
           <Issue/>
           <Issue/>
           <Issue/>
