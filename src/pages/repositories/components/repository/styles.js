@@ -11,21 +11,25 @@ const styles = StyleSheet.create({
     justifyContent: 'space-around',
     alignItems: 'center',
   },
-
   textContainer: {
     flex: 1,
     paddingHorizontal: 20,
   },
-
   title: {
     fontSize: fonts.boxTitle,
     color: colors.boxTitle,
     fontWeight: 'bold',
   },
-
   owner: {
     fontSize: fonts.boxDescription,
     color: colors.boxDescription,
+  },
+  avatar: {
+    width: metrics.avatarWidth,
+    height: metrics.avatarHeigth,
+  },
+  arrow: {
+    fontSize: fonts.boxArrow,
   },
 });
 

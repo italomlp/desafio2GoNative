@@ -7,7 +7,13 @@ const styles = StyleSheet.create({
     backgroundColor: colors.background,
     padding: 20,
   },
-
+  header: {
+    height: 44,
+    elevation: 0,
+  },
+  issuesContainer: {
+    flex: 1,
+  },
   filterContainer: {
     flexDirection: 'row',
     alignItems: 'center',
@@ -16,6 +22,17 @@ const styles = StyleSheet.create({
     borderRadius: metrics.globalBorderRadius,
     marginBottom: 10,
     padding: 5,
+  },
+  message: {
+    textAlign: 'center',
+    marginHorizontal: 10,
+    marginBottom: 15,
+  },
+  error: {
+    color: colors.error,
+  },
+  empty: {
+    color: colors.empty,
   },
 });
 

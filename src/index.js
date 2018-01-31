@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
-import {
-  View,
-} from 'react-native';
+import { AsyncStorage } from 'react-native';
+
 import 'config/ReactotronConfig';
 import createRootNavigator from 'routes';
 

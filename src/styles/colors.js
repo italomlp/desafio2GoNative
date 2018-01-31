@@ -9,4 +9,7 @@ export default {
 
   filterBoxBackground: '#DDDDDD',
   filterText: '#666666',
+
+  error: '#990000',
+  empty: '#444444',
 };
